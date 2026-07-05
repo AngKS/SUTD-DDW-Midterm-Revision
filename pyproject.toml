@@ -1,0 +1,17 @@
+[project]
+name = "ddw-midterm-revision"
+version = "0.1.0"
+description = "DDW 10.020 midterm revision Streamlit app: sorting visualizer, Big-O/o/Θ/Ω complexity quiz, and an MRT-themed graph traversal (BFS/DFS) guide."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "graphviz>=0.21",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "streamlit>=1.58.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]

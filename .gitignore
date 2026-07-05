@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments (uv manages .venv locally; uv.lock IS committed)
+.venv/
+venv/
+env/
+
+# Editor / assistant config
+.claude/
+.opencode/
+.vscode/
+.idea/
+AGENT.md
+CLAUDE.md
+
+# OS
+.DS_Store
+
+# Stray build/QA artifacts (screenshots, previews, temp files)
+*.tmp
+screenshot*.png
+screenshot*.jpg
+preview*.png
+preview*.jpg
+qa-*.png
+qa-*.jpg
+
+# Legacy (pre-uv) files
+Pipfile.lock
